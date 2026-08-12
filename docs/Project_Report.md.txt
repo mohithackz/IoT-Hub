@@ -1,0 +1,132 @@
+# IoT Hub Project Report
+
+## Project Title
+
+**IoT Hub – An All-in-One ESP32 Based Multi-Sensor Development Platform**
+
+---
+
+## Abstract
+
+IoT Hub is an ESP32-based development platform designed to simplify the development of Internet of Things (IoT) applications. The platform integrates multiple sensors, communication modules, and output devices into a single hardware board, allowing users to prototype and test various IoT applications without repeatedly wiring individual components.
+
+---
+
+## Objectives
+
+- Design a compact multi-sensor IoT platform.
+- Reduce hardware wiring complexity.
+- Provide a single-board solution for learning and prototyping.
+- Support rapid development of IoT applications.
+- Create a platform suitable for students, researchers, and developers.
+
+---
+
+## Features
+
+- ESP32 Microcontroller
+- Wi-Fi and Bluetooth Connectivity
+- Custom PCB Design
+- Multiple Integrated Sensors
+- LCD Display Support
+- Buzzer and Relay Control
+- Arduino IDE Compatible
+- Plug-and-Play Development
+
+---
+
+## Hardware Components
+
+### Controller
+- ESP32 Development Board
+
+### Sensors
+- Ultrasonic Sensor
+- Water Level Sensor
+- Rotary Encoder
+- Touch Sensor
+- IR Sensor
+- Temperature Sensor
+- Humidity Sensor
+- Smoke Sensor
+- Gas Leak Sensor
+- LDR Sensor
+- PIR Sensor
+- Soil Moisture Sensor
+- Sound Sensor
+- Vibration Sensor
+- Pressure Sensor
+- Speed Sensor
+- Flex Sensor
+- pH Sensor
+- GPS Module
+- Heart Beat Sensor
+- Fingerprint Sensor
+- Joystick
+
+### Actuators
+- Servo Motor
+- Stepper Motor
+- DC Motor
+
+### Display
+- 16×2 LCD Display
+
+---
+
+## Software Requirements
+
+- Arduino IDE
+- ESP32 Board Package
+- Required Arduino Libraries
+
+---
+
+## Applications
+
+- Smart Home Automation
+- Smart Agriculture
+- Weather Monitoring
+- Industrial IoT
+- Environmental Monitoring
+- Educational Projects
+- Research and Development
+
+---
+
+## Advantages
+
+- Compact hardware design
+- Easy to use
+- Reduced wiring
+- Faster project development
+- Suitable for educational purposes
+- Expandable architecture
+
+---
+
+## Future Scope
+
+- Mobile Application
+- MQTT Communication
+- OTA Firmware Updates
+- Cloud Dashboard
+- AI-Based Data Analytics
+- Voice Assistant Integration
+
+---
+
+## Conclusion
+
+IoT Hub provides a reliable and flexible hardware platform for developing IoT applications. By integrating multiple sensors and communication capabilities into a single ESP32-based board, it enables rapid prototyping and serves as an effective solution for learning, research, and real-world IoT projects.
+
+---
+
+## Author
+
+**Mohit Yadav**
+
+---
+
+**Version:** 1.0  
+**Year:** 2026
