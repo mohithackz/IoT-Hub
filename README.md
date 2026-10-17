@@ -2,232 +2,192 @@
 
 # ⚡ IoT Hub
 
-### An All-in-One ESP32 Based Multi-Sensor Development Platform
+### An IoT Lab Hardware Showcase
 
-**Build • Learn • Prototype • Innovate**
+**Explore • Learn • Prototype • Innovate**
 
-<img src="images/iot-hub-board.png" alt="IoT Hub Banner" width="900">
+<img src="images/iot-hub-board.png" alt="IoT Hub hardware showcase" width="900">
 
-<br>
-
-![ESP32](https://img.shields.io/badge/ESP32-Main_Controller-E7352C?style=flat-square)
-![Arduino](https://img.shields.io/badge/Arduino-Compatible-00979D?style=flat-square)
-![IoT](https://img.shields.io/badge/IoT-Multi_Sensor-success?style=flat-square)
-![License](https://img.shields.io/badge/License-Educational-blue?style=flat-square)
+![IoT](https://img.shields.io/badge/Focus-Internet_of_Things-0A8F6A?style=flat-square)
+![Hardware](https://img.shields.io/badge/Focus-Hardware_Lab-blue?style=flat-square)
+![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)
 
 </div>
 
 ---
 
-# 📖 Overview
+## 📖 Overview
 
-IoT Hub is an ESP32-based multi-sensor development platform designed to simplify IoT prototyping. It combines multiple sensors, communication modules, and output devices on a single custom PCB, reducing wiring complexity and enabling rapid development of smart applications.
+**IoT Hub** is a showcase repository for an IoT lab environment and its hardware resources. It documents the lab setup and gives students and other interested readers a visual introduction to the types of boards, sensors, displays, and output devices available for learning and prototyping.
 
-The platform is ideal for students, educators, researchers, and IoT developers who want an all-in-one solution for building and testing embedded system projects.
+This repository is **not a firmware or software project**. It currently contains documentation and images; it does not include firmware, circuit schematics, PCB design files, pin mappings, or step-by-step build instructions.
+
+> **Important:** The component list below describes hardware resources available in the lab. It does not mean every listed component is mounted on, wired to, or tested together with the board shown in the images.
 
 ---
 
-# 📑 Table of Contents
+## 📑 Table of Contents
 
-- [Project Gallery](#-project-gallery)
-- [Features](#-features)
-- [Hardware Components](#-hardware-components)
-- [Hardware Specifications](#-hardware-specifications)
-- [Repository Structure](#-repository-structure)
-- [Getting Started](#-getting-started)
-- [Applications](#-applications)
-- [Future Scope](#-future-scope)
-- [Contributing](#-contributing)
-- [Authors](#-authors)
+- [Gallery](#-gallery)
+- [What the Lab Supports](#-what-the-lab-supports)
+- [Hardware Resources](#-hardware-resources)
+- [Repository Contents](#-repository-contents)
+- [Using This Repository](#-using-this-repository)
+- [Possible Learning Areas](#-possible-learning-areas)
+- [Future Documentation](#-future-documentation)
+- [Author](#-author)
 - [License](#-license)
 
 ---
 
-# 📸 Project Gallery
+## 📸 Gallery
 
-## IoT Hub Development Board
+### IoT Hub Hardware Showcase
 
-<img src="images/iot-hub-board.png" width="900">
+<img src="images/iot-hub-board.png" alt="IoT Hub hardware showcase" width="900">
 
----
+### IoT Lab Setup
 
-## IoT Lab Setup
+<img src="images/iot-lab-board.png" alt="IoT lab setup" width="900">
 
-<img src="images/iot-lab-board.png" width="900">
-
----
-
-# ✨ Features
-
-- ESP32-based Development Board
-- Custom Designed PCB
-- Wi-Fi & Bluetooth Connectivity
-- Multiple Onboard Sensors
-- Real-Time Data Monitoring
-- LCD Display Support
-- Buzzer & Relay Control
-- Plug-and-Play Design
-- Arduino IDE Compatible
-- Easy Expansion for Future Modules
+*The images show hardware/lab setups for reference. They should not be interpreted as proof that every component in the inventory is integrated into one board.*
 
 ---
 
-# 🧩 Hardware Components
+## ✨ What the Lab Supports
 
-## 🔹 Controller
+The lab's available hardware can support learning and prototyping activities such as:
 
-- ESP32 Development Board
+- Microcontroller-based experimentation
+- Sensor data collection and monitoring
+- Display and indicator interfacing
+- Actuator and motor-control experiments
+- Wireless IoT concepts, including Wi-Fi and Bluetooth where supported by the selected board/module
+- Embedded-systems and IoT project prototyping
 
-## 🔹 Sensors
+Specific capabilities depend on the board, module, wiring, power requirements, and software used for each experiment.
 
-- Ultrasonic Sensor
-- Water Level Sensor
-- Rotary Encoder
-- Touch Sensor
-- IR Sensor
-- Temperature Sensor
-- Humidity Sensor
-- Smoke Sensor
-- Gas Leak Sensor
-- LDR Sensor
-- PIR Sensor
-- Soil Moisture Sensor
-- Sound Sensor
-- Vibration Sensor
-- Pressure Sensor
-- Speed Sensor
-- Flex Sensor
-- pH Sensor
-- GPS Module
-- Heart Beat Sensor
-- Fingerprint Sensor
+---
+
+## 🧩 Hardware Resources
+
+The following is an inventory of hardware resources reported as available in the lab. Availability does **not** imply that every item is integrated into the pictured setup.
+
+### Controller / Development Boards
+- ESP32 development board(s)
+
+### Sensors and Input Modules
+- Ultrasonic sensor
+- Water-level sensor
+- Rotary encoder
+- Touch sensor
+- IR sensor
+- Temperature sensor
+- Humidity sensor
+- Smoke sensor
+- Gas-leak sensor
+- LDR sensor
+- PIR sensor
+- Soil-moisture sensor
+- Sound sensor
+- Vibration sensor
+- Pressure sensor
+- Speed sensor
+- Flex sensor
+- pH sensor
+- GPS module
+- Heartbeat sensor
+- Fingerprint sensor
 - Joystick
 
-## 🔹 Actuators
+### Output Devices and Actuators
+- 16×2 LCD display
+- Servo motor
+- Stepper motor
+- DC motor
+- Other output modules, such as buzzers or relays, where available in the lab
 
-- Servo Motor
-- Stepper Motor
-- DC Motor
+### Connectivity
+- Wi-Fi and Bluetooth capabilities are available through compatible development boards/modules.
 
-## 🔹 Display
-
-- 16×2 LCD Display
-
-## 🔹 Communication
-
-- Wi-Fi
-- Bluetooth
-
-## 🔹 Power
-
-- Dedicated Power Module
+*Before building a circuit, verify the exact module model, voltage/current requirements, pinout, and interface from its datasheet.*
 
 ---
 
-# 📋 Hardware Specifications
-
-| Specification | Details |
-|--------------|---------|
-| Microcontroller | ESP32 |
-| PCB Type | Custom Designed |
-| Connectivity | Wi-Fi & Bluetooth |
-| Programming | Arduino IDE |
-| Display | 16×2 LCD |
-| Communication Protocols | UART, SPI, I2C |
-| Power Supply | 5V DC |
-
----
-
-# 📁 Repository Structure
+## 📁 Repository Contents
 
 ```text
 IoT-Hub/
-│
 ├── README.md
+├── LICENSE
 ├── docs/
-├── hardware/
+│   └── Project_Report.md.txt
 └── images/
+    ├── iot-hub-board.png
+    └── iot-lab-board.png
 ```
+
+This is a documentation-and-images repository. There is currently no `hardware/` directory or firmware source code in the repository.
 
 ---
 
-# 🚀 Getting Started
+## 🚀 Using This Repository
 
-## Clone the Repository
+Clone the repository:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/IoT-Hub.git
+git clone https://github.com/mohithackz/IoT-Hub.git
+cd IoT-Hub
 ```
 
-> Replace **YOUR_USERNAME** with your GitHub username after creating the repository.
+Browse the `images/` folder for the lab photographs and read the project report in `docs/` for a written overview.
+
+**No firmware upload steps are provided** because this repository does not currently contain firmware or a reproducible circuit/build package.
 
 ---
 
-## Software Requirements
+## 📚 Possible Learning Areas
 
-- Arduino IDE
-- ESP32 Board Package
-- Required Arduino Libraries
+Depending on the hardware selected for an experiment, the lab resources may be used to explore:
 
----
+- Sensor interfacing and calibration
+- Reading analog and digital inputs
+- LCD and other display interfacing
+- Motor and actuator control
+- Serial communication and common hardware interfaces
+- Wi-Fi/Bluetooth-enabled IoT prototypes
+- Data collection and basic monitoring systems
 
-## Upload the Firmware
-
-1. Connect the ESP32 board.
-2. Open the project in Arduino IDE.
-3. Install the required libraries.
-4. Select **ESP32 Dev Module**.
-5. Select the correct COM Port.
-6. Click **Upload**.
+These are possible uses of the available resources, not claims that all of these experiments have already been implemented in this repository.
 
 ---
 
-# 📊 Applications
+## 🔮 Future Documentation
 
-- Smart Home Automation
-- Smart Agriculture
-- Industrial IoT
-- Weather Monitoring
-- Environmental Monitoring
-- Educational Projects
-- Research & Development
-- Embedded Systems Learning
+If these details become available, the repository could be expanded with:
 
----
-
-# 🔮 Future Scope
-
-- Mobile Application Support
-- MQTT Communication
-- OTA Firmware Updates
-- Cloud Dashboard
-- AI-Based Analytics
-- Voice Assistant Integration
+- A verified hardware inventory with exact model names
+- Circuit diagrams and pin mappings for individual experiments
+- Clear photographs of each setup
+- Experiment notes and test results
+- Firmware for specific experiments, if the repository later becomes a code repository
 
 ---
 
-# 🤝 Contributing
-
-Suggestions, feedback, and improvements are always welcome.
-
----
-
-# 👨‍💻 Author
+## 👨‍💻 Author
 
 **Mohit Yadav**
 
 ---
 
-# 📜 License
+## 📜 License
 
-This project is intended for educational and academic purposes.
+The repository is licensed under the [MIT License](LICENSE). This license applies to repository content that the author has the right to license. Third-party names, trademarks, and materials remain subject to their respective owners' rights.
 
 ---
 
 <div align="center">
 
-## ⭐ If you found this project useful, please consider giving it a star.
-
-**Made with ❤️ using ESP32**
+**Made for IoT learning and lab exploration.**
 
 </div>
